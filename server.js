@@ -227,7 +227,10 @@ app.post('/updateRecord',async (req,res)=>{
 
 
 
+
+
+const port = process.env.PORT || 5000;
 /* Server config */
-app.listen(5000,()=>{
+app.listen(port,()=>{
     console.log('express server started');
 });
